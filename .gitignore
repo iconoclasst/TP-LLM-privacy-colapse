@@ -1,0 +1,27 @@
+# ambiente e cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# repositório original (clonar à parte)
+upstream/
+
+# dados e resultados (enviados por zip)
+data/
+eval/
+zips/
+
+# modelos e checkpoints
+outputs/
+target_filtered/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# arquivos temporários
+exemplo.txt
+structure.txt
+registros.txt
